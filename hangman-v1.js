@@ -10,7 +10,7 @@ var remainingLetters = randomWord.length;
 let randomWordArray = randomWord.split('') 
 
 let answer = [];
-    for (var index= 0; index< randomWord.length; i++) {
+    for (var index= 0; index< randomWord.length; index++) {
         answer[index] = "_";
     };
 while (remainingLetters > 0) {
