@@ -11,7 +11,7 @@ let randomWordArray = randomWord.split('') 
 
 let answer = [];
     for (var index= 0; index< randomWord.length; i++) {
-        answer[i] = "_";
+        answer[index] = "_";
     };
 while (remainingLetters > 0) {
 
